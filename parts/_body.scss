@@ -1,0 +1,23 @@
+body {
+  background-color: #f2f2f2;
+  main {
+    background-color: bisque;
+    .section-1 {
+      background-color: blue;
+    }
+    .section-2 {
+      background-color: yellow;
+      article {
+        color: brown;
+        p:last-child {
+          color: aqua;
+          transition: all .2s ease;
+          cursor: pointer;
+          &:hover {
+            color:chocolate;
+          }
+        }
+      }
+    }
+  }
+}

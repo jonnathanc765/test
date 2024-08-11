@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(194, 218, 100);
+}
+header h2 {
+  color: white;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+body main {
+  background-color: bisque;
+}
+body main .section-1 {
+  background-color: blue;
+}
+body main .section-2 {
+  background-color: yellow;
+}
+body main .section-2 article {
+  color: brown;
+}
+body main .section-2 article p:last-child {
+  color: aqua;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+body main .section-2 article p:last-child:hover {
+  color: chocolate;
+}/*# sourceMappingURL=index.css.map */
